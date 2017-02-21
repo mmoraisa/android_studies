@@ -1,2 +1,3 @@
-# android_studies
-Android studies for my Information Systems Bachelor
+# Android Studies
+
+Here you can find codes that I've studied in my Information Systems Bachelor using Android Studio.
