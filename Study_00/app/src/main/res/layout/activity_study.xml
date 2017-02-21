@@ -10,8 +10,36 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="github.com.mmoraisa.study_00.Study">
 
-    <TextView
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/edtNumber1"
+        android:hint="@string/lblTypeNumber"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:layout_below="@+id/edtNumber1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp"
+        android:id="@+id/edtNumber2"
+        android:hint="@string/lblTypeNumber"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="@string/lblCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:id="@+id/btnCalc"
+        android:layout_below="@+id/edtNumber2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
